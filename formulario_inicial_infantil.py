@@ -182,7 +182,7 @@ nome_pac = st.text_input("Nome Completo do(a) Paciente *")
 
 col3, col4 = st.columns(2)
 with col3:
-    cpf_pac = st.text_input("CPF d(a) Paciente *", key="cpf_pac_key", on_change=aplicar_mascaras, max_chars=14, placeholder="000.000.000-00")
+    cpf_pac = st.text_input("CPF do(a) Paciente *", key="cpf_pac_key", on_change=aplicar_mascaras, max_chars=14, placeholder="000.000.000-00")
 with col4:
     nasc_pac = st.text_input("Data de Nascimento do(a) Paciente *", key="nasc_pac_key", on_change=aplicar_mascaras, max_chars=10, placeholder="00/00/0000")
 
